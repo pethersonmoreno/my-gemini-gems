@@ -30,9 +30,8 @@ Abaixo está o catálogo de Gems. Escolha a que melhor atende à sua necessidade
 
 | Nome da Gem | Descrição | Instruções (Prompt) | Testar no Gemini |
 | :--- | :--- | :--- | :--- |
-| **💻 [Exemplo] Assistente de Código** | Analisa, refatora e gera testes unitários para o seu código. | [Ver Prompt 📄 - Indisponível](./gems/[Exemplo]%20Assistente%20de%20C%C3%B3digo.md) | [Indisponível](#) |
-| **✍️ [Exemplo] Copywriter Senior** | Cria textos persuasivos, posts e roteiros focados em conversão. | [Ver Prompt 📄 - Indisponível](./gems/[Exemplo]%20Copywriter%20Senior.md) | [Indisponível](#) |
-| **🔍 [Exemplo] Revisor de Texto** | Corrige gramática, ajusta o tom e melhora a coesão textual. | [Ver Prompt 📄 - Indisponível](./gems/[Exemplo]%20Revisor%20de%20Texto.md) | [Indisponível](#) |
+| **💻 Criador de Script para Unificar Markdown** | Gerador de scripts Bash para concatenação e estruturação de múltiplos arquivos Markdown. | [Ver Prompt 📄](./gems/Criador%20de%20Script%20para%20Unificar%20Markdown.md) | [Abrir Gem 🚀](https://gemini.google.com/gem/1qP6wTu5cHSOJCQ_5eM7ms2MPefCqsgLc?usp=sharing) |
+
 
 ## 📂 Estrutura do Repositório
 
@@ -41,9 +40,10 @@ O projeto segue uma organização simples, onde cada Gem possui seu próprio arq
 ```text
 my-gemini-gems/
 ├── gems/                     # Pasta centralizadora de todas as Gems
-│   ├── [Exemplo] Assistente de Código.md  # Nome do arquivo = Título da Gem
-│   ├── [Exemplo] Copywriter Senior.md     # Conteúdo interno = Prompt da Gem
-│   └── [Exemplo] Revisor de Texto.md
+│   │
+│   └── Criador de Script para Unificar Markdown.md  # Nome do arquivo = Título da Gem
+│                                                    # Conteúdo interno = Prompt da Gem
+│
 ├── LICENSE                   # Licença de uso do código (MIT)
 └── README.md                 # Página inicial com o catálogo de Gems
 ```
